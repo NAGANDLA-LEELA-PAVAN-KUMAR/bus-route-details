@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="stylesheet" href="apsrtc.css">
+
+<title>APSRTC</title>
+</head>
+<body>
+<img src="ap.jpg" height="120" width="150" >
+<p class="paragraph">
+PANDIT NEHRU BUS STATION-VIJAYAWADA</p>
+<hr><br><center>
+<table>
+     <tr>
+	<td>FROM </td>
+	<td>:</td>
+	<td>
+	         <!-- <select>
+                                    	<option value="0">VIJAYAWADA</option>
+  	        </select> -->
+
+  	        <select id="startLoc">
+
+  	        </select>
+
+ 	</td>
+                   <td>
+		<pre>                          </pre>
+	</td>
+	<td>TO
+	</td>
+   	<td> :
+	</td>
+ 	<td>
+	     <select id="endLoc">
+
+  	        </select>
+                   </td>
+     </tr>
+</table><br>
+<input type="submit" value="GET DETAILS" id="button" onclick="javascript: getBusRoutes();">
+
+<table id="resTable" cellspacing="10" cellpadding="10" style="width: 90%;margin: 2%;border: 1px solid #000">
+	
+	<tr>
+		<th>Route No</th>
+		<th>Origin</th>
+		<th>Destination</th>
+		<th>Intermediate Stops</th>
+	</tr>
+
+</table>
+
+<!-- <table id="tb"><br><br>
+<tr><td>BUS ROOT</td><td><pre>	</pre></td><td>PLAT FORM NO</td><tr>
+<tr><td id="val1"></td><td><pre>	</pre></td><td id="pltno" style="text-align:center;"></td></tr>
+<tr><td id="val2"></td></tr>
+<tr><td id="val3"></td></tr>
+<tr><td id="val4"></td></tr>
+</table></center> -->
+<script src="apsrtc_new.js">
+                  
+</script>
+</body>
+</html>

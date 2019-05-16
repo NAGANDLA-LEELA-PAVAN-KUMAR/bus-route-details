@@ -1,0 +1,26 @@
+#img
+{
+border:hidden;
+width:1347px;
+height:150px;
+}
+/*#tb
+{
+visibility:hidden;
+}*/
+.paragraph {
+position:absolute;
+top:-50px;
+left:250px;
+text-align:center;
+font-size:45px;
+font-variant:small-caps;
+font-weight:bolder;
+color:DodgerBlue;
+text-shadow:5px 2px 2px black;
+ white-space:pre;
+}
+hr
+{
+border:2px ridge blue
+}
